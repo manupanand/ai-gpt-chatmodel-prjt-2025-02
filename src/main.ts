@@ -39,7 +39,7 @@ async function chatModel(){
         console.log(response.content)
         /******************************** */
         const promptValue=await promptTemplate.invoke({
-            language:"malayalam",
+            language:"russian",
             text:"hello",
         })
         console.log(promptValue.toChatMessages())
